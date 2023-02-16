@@ -23,7 +23,7 @@ const PostShare = () => {
     <div className="PostShare">
       <img src={ProfileImage} alt="" />
       <div>
-        <input type="text" placeholder="What's happening" />
+        <input type="text" placeholder="No que você está pensando?" />
         <div className="postOptions">
           <div
             className="option"
@@ -45,7 +45,7 @@ const PostShare = () => {
             <UilSchedule />
             Agenda
           </div>
-          <button className="button ps-button">Share</button>
+          <button className="button ps-button">Publicar</button>
           <div style={{ display: "none" }}>
             <input
               type="file"
